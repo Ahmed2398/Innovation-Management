@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>IMS|Home</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" href="css/style.html">
+  <link rel="stylesheet" href="icons/fontawesome-free-6.1.1-web%20(1)/fontawesome-free-6.1.1-web/css/all.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" href="css/common.css">
+  <!--===============================================================================================-->
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/login.css">
+
+  <!--===============================================================================================-->
+  <link rel="stylesheet" href="css/responsive.css">
+  <!--===============================================================================================-->
+  <!--===============================================================================================-->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+    rel="stylesheet">
+  <!--===============================================================================================-->
+  <!--===============================================================================================-->
+</head>
+
+<body onload="loadfun()">
+  <div id="Loading"></div>
+  <!-- MAke btn to bact to top of page  -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <!-- End btn -->
+  <!-- Start Header -->
+  <header class="head-banner">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand text-white" href="index.html"><img src="img/Ims.svg" class="w-100" alt=""></a>
+        <button class=" navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+              <a class="nav-link nav-link-banner" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link nav-link-banner" href="about.html">About</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link nav-link-banner" href="services.html">Services</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link nav-link-banner" href="solution.html">Solution</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link nav-link-banner" href="products.html">Products</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link f-16 nav-link-banner" href="clients.html">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link f-16 nav-link-banner" href="contact.html">Contact</a>
+            </li>
+          </ul>
+          <div class="say-hello ">
+            <a href="login.html" class="btn btn-primary btn-sm text-white  ">login</a>
+            <a href="register.html" class="btn btn-primary btn-sm text-white ">Register</a>
+          </div>
+        </div>
+      </nav>
+      <div class="row">
+
+        <div class="col-lg-12 text-center">
+          <div class="banner">
+            <h2>Login</h2>
+            <span>Home / <span> Login </span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
+  <!-- End About -->
+  <div class="row align-items-center justify-content-center">
+    <div class="col-lg-5 col-md-8 col-12">
+      <img class=" w-100" src="img/Logo%20Primary.svg" alt="" width="100" height="100">
+      <div class="register-wrap p-5 bg-light shadow rounded-custom">
+        <h1 class="h3">Nice to Seeing You Again</h1>
+        <p class="text-muted">Please log in to access your account web-enabled methods of innovative
+          niches.</p>
+
+        <div class="action-btns">
+          <a href="#"
+            class="btn google-btn bg-white shadow-sm mt-4 d-block d-flex align-items-center text-decoration-none justify-content-center">
+            <img src="img/google-icon.svg" alt="google" class="me-3">
+            <span>Connect with Google</span>
+          </a>
+        </div>
+        <div class="position-relative d-flex align-items-center justify-content-center mt-4 py-4">
+          <span class="divider-bar"></span>
+          <h6 class="position-absolute text-center divider-text bg-light mb-0">Or</h6>
+        </div>
+        <form action="#" class="mt-4 register-form">
+          <div class="row">
+            <div class="col-sm-12">
+              <label for="email" class="mb-1">Email <span class="text-danger">*</span></label>
+              <div class="input-group mb-3">
+                <input type="email" class="form-control" placeholder="Email" id="email" aria-label="email">
+              </div>
+            </div>
+            <div class="col-sm-12">
+              <label for="password" class="mb-1">Password <span class="text-danger">*</span></label>
+              <div class="input-group mb-3">
+                <input type="password" class="form-control" placeholder="Password" id="password" aria-label="Password">
+              </div>
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary mt-3 d-block w-100">Submit</button>
+            </div>
+          </div>
+          <p class="font-monospace fw-medium text-center text-muted mt-3 pt-4 mb-0">Don’t have an
+            account? <a href="#" class="text-decoration-none">Sign up Today</a>
+            <br>
+            <a href="#" class="text-decoration-none">Forgot password</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section>
+  <!--Start Footer Section-->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <h3>About Us</h3>
+          <hr class="hr-md">
+          <p>Welcome to Innovation Management Solutions</p>
+          <p>
+            Since its foundation in 2012, we at IMS believe in “Transforming Operations” through scalable and
+            innovative
+            solutions that help its clients achieve their business objectives.
+
+            IMS was founded by business experts coming from different backgrounds and industries with a combined
+            experience of over 50 years.
+
+          </p>
+          <ul class="list-inline">
+            <li class="list-icon"><img src="img/face.png"></li>
+            <li class="list-icon"><img src="img/twitter.png"></li>
+            <li class="list-icon"><img src="img/insta.png"></li>
+            <li class="list-icon"><img src="img/google.png"></li>
+
+          </ul>
+        </div>
+        <div class="col-sm-4 col-md-6 col-lg-3">
+          <h3>Quick links</h3>
+          <hr class="hr-md">
+          <ul class="text-primary">
+            <li class="list-item">
+              <a href="index-2.html">Home</a>
+              <i class="fas fa-angle-double-right"></i>
+            </li>
+            <li class="list-item">
+              <a href="about.html">About</a>
+              <i class="fas fa-angle-double-right"></i>
+            </li>
+            <li class="list-item">
+              <a href="products.html">Products</a>
+              <i class="fas fa-angle-double-right"></i>
+            </li>
+            <li class="list-item">
+              <a href="contact.html">contact-us</a>
+              <i class="fas fa-angle-double-right"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-4 col-md-6 col-lg-3">
+          <h3>Services & Solutions </h3>
+          <hr class="hr-md">
+          <ul class="text-primary">
+            <li class="list-item">
+              <a href="services.html">Services</a>
+              <i class="fas fa-angle-double-right"></i>
+            </li>
+            <li class="list-item">
+              <a href="solution.html">Solutions</a>
+              <i class="fas fa-angle-double-right"></i>
+            </li>
+            <li class="list-item">
+              <a href="clients.html">Clients</a>
+              <i class="fas fa-angle-double-right"></i>
+            </li>
+            <li class="list-item " style="visibility: hidden;">
+              <a href="#">FAQ</a>
+              <i class="fas fa-angle-double-right"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-4 col-md-6 col-lg-3">
+          <h3>OFFICES:</h3>
+          <hr class="hr-md">
+          <ul>
+            <li class="list-item">
+              <p>EGYPT</p>
+            </li>
+            <li class="list-item">
+              <p>UNITED ARAB EMIRATES</p>
+              <!-- <span>UNITED ARAB EMIRATES</span> -->
+            </li>
+            <li class="list-item">
+              <p>SAUDI ARABIA</p>
+            </li>
+          </ul>
+        </div>
+        <hr class="hr-footer">
+        <div class="col-sm-12 col-md-12 col-lg-12 text-center">
+          <h5 style="color: #fff;">All rights reserved<span style="color: #ffae00;"> &copy;2022 Macber.eg</span></h5>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--End Footer Section-->
+
+  <!--===============================================================================================-->
+  <script src="../code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="../cdn.jsdelivr.net/npm/popper.js%401.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="../cdn.jsdelivr.net/npm/bootstrap%404.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+  <script src="js/carousel.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
